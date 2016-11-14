@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Address Form</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+<div class="container">
+	<form action="http://www.example.com/review.php" method="get">
+			<fieldset>
+			<label>Step 1: Your Details</label><br>
+			<div class = "element">Name <input type="text" name="name" size="30"
+			maxlength="100"></div>
+			<div  class = "element">Email <input type="email" name="email" value = "example@domain.com" size="30"
+			maxlength="100"></div>
+			<div class = "element">Phone <input type="number" name="phone number" value = "" size="30"
+			maxlength="100"></div>
+			</fieldset>
+
+			<fieldset>
+			<label class>Step 1: Delievery Address</label><br>
+			<div class = "element">Address <input type="text" name="name" size="30"
+			maxlength="100" style="height : 50px; width:200px"></div>
+			<div class = "element">Post code <input type="number" name="postcode" size="30"
+			maxlength="100"></div>
+			<div class = "element">Country <input type="text" name="Country" size="30"
+			maxlength="100"></div>
+			</fieldset>
+
+			<fieldset>
+			<label>Step 1: Card Details</label><br>
+			<div class="element">Card Type<br />
+			<input type="radio" name="options" class = "radio" value="VISA">VISA
+			<input type="radio" name="options" class = "radio" value="AmEx">AmEx
+			<input type="radio" name="options" class = "radio" value="Mastercard">Mastercard</div>
+			<div class="element">Card number <input type="number" name="cardnumber" size="30"
+			maxlength="100"></div>
+			<div class= "element">Security Code <input type="number" name="securitycode" size="30"
+			maxlength="100"></div>
+			<div class="element">Name on card <input type="text" name="nameoncard" value= "exact name as on card" size="30"
+			maxlength="100"></div>
+			</fieldset>
+			<input type="submit" name=" Buy it!" value=" Buy it! ">
+	</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container{
+	background-image: url("./images.jpg");
+	width: 500px;
+	height: 750px;
+	margin: 0px auto;
+	border : 1px solid lightblue;
+	border-radius: 5px;
+}
+
+
+fieldset {
+	
+	border-style: none;
+}
+.element {
+	border : 1px solid lightblue;
+	background-color: lightsteelblue;
+	width : 300;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+
+}
+
+input {
+	width: 360px;
+	margin-left: 40px;
+	border-style: 5px;
+}
+
+.radio {
+	width: 10px;
+	display: inline-block;
+}
+
+input[type = "submit"] {
+	width: 100px;
+	margin-left: 200px;
+	background-color: midnightblue;
+	color: white;
+}
